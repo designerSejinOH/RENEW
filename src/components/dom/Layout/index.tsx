@@ -1,10 +1,13 @@
 import * as S from './styles'
+import Scene from '@/components/canvas/Scene'
 
-const LayoutContainer = ({ ...props }) => {
+const LayoutContainer = ({ children, ...props }) => {
   return (
     <S.Wrap>
-      <S.Main></S.Main>
-      <S.Header>SEJIN OH</S.Header>
+      <S.Main>
+        <Scene>{children}</Scene>
+      </S.Main>
+      <S.Header>{props.title}</S.Header>
       <S.Content>
         <S.Aside></S.Aside>
         <S.Bside></S.Bside>

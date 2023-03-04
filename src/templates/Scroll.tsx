@@ -5,6 +5,7 @@
 // 3 - enjoy
 import { addEffect, useFrame } from '@react-three/fiber'
 import Lenis from '@studio-freight/lenis'
+
 import { useEffect } from 'react'
 import { useRef } from 'react'
 import * as THREE from 'three'

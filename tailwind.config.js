@@ -8,7 +8,8 @@ module.exports = {
         'auto-1fr': 'auto 1fr',
       },
       gridTemplateRows: {
-        layout: '200px auto 200px',
+        layout: '100px auto 100px',
+        mobile: '1fr 2fr 1.5fr 1fr',
         content: '1fr 3fr',
       },
     },

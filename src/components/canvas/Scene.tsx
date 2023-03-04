@@ -8,9 +8,9 @@ export default function Scene({ children, ...props }) {
       <directionalLight intensity={0.75} />
       <ambientLight intensity={0.75} />
       {children}
-      <Environment preset='warehouse' />
+      <Environment preset='city' />
       <Preload all />
-      <OrbitControls />
+      {/* <OrbitControls /> */}
     </Canvas>
   )
 }

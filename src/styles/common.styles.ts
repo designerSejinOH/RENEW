@@ -5,6 +5,8 @@ import { motion } from 'framer-motion'
 
 export const MotionDiv = styled(motion.div).attrs({
   layout: true,
+  initial: { opacity: 0 },
+  animate: { opacity: 1 },
   transition: { duration: 0.3 },
 })``
 

@@ -4,9 +4,7 @@ import Header from '@/config'
 import Frame from '@/components/dom/Frame'
 import '@/styles/index.css'
 
-const Scene = dynamic(() => import('@/components/canvas/Scene'), { ssr: true })
-
-export default function App({ Component, pageProps = { title: 'index' } }) {
+export default function App({ Component, pageProps = { title: 'SEJIN OH' } }) {
   const ref = useRef()
   return (
     <>
